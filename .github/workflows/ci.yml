@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   selfhost-check:
-    runs-on: selfhost
+    runs-on: self-hosted
     steps:
       - name: Print Current working-directory
         run: echo pwd
