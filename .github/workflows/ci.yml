@@ -1,0 +1,10 @@
+name: selfhost runner check
+
+on: workflow_dispatch
+
+jobs:
+  selfhost-check:
+    runs-on: selfhost
+    steps:
+      - name: Print Current working-directory
+        run: echo pwd
